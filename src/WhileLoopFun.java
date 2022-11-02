@@ -18,7 +18,7 @@ public class WhileLoopFun
      */
     public double factorial(int number)
     {
-        int i = number;
+        int i = number; //i for index
         int r = number; //r for return
         while (i > 1)
         {
@@ -34,7 +34,7 @@ public class WhileLoopFun
      */
     public void printDigits(int number)
     {
-        int i = number;//i for input
+        int i = number;//i for index
         String r = "";//r for return
         while (i > 0)
         {
@@ -51,7 +51,7 @@ public class WhileLoopFun
      */
     public int sumOfDigits(int number)
     {
-        int i = number;//i for input
+        int i = number;//i for index
         int r = 0;//r for return
         while (i > 0)
         {
@@ -77,7 +77,7 @@ public class WhileLoopFun
      */
     public boolean isPrime(int number)
     {
-        int i = number;//i for input
+        int i = number;//i for index
         int d = 2;//d for divide
         while (i % d != 0 && d < 10)
         {
@@ -127,7 +127,7 @@ public class WhileLoopFun
      */
     public int maxDoubles(int number, int threshold)
     {
-        int i = number;//i for input
+        int i = number;//i for index
         int t = threshold;//t for threshold
         int r = 0;//r for return
         while (i * 2 <= t)
